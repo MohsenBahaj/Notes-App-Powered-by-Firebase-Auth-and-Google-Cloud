@@ -1,16 +1,24 @@
-# notesapp
+# Notes App Powered by Firebase Auth and Google Cloud
 
-A new Flutter project.
+## Overview
+The Notes App allows users to create and manage folders containing any number of notes. Users can easily add, edit, delete, and update their notes, providing a flexible and organized way to keep track of important information.
+
+## Features
+- **Folder Management**: Users can create folders to organize their notes.
+- **Notes Management**: Add, edit, delete, and update notes within folders.
+- **User Authentication**: Users can sign up, log in, or log in using their Google accounts.
+- **Password Reset**: Users can reset their passwords via email, ensuring secure access to their accounts.
+- **Cloud Storage**: Utilizes cloud storage to save and manage notes efficiently.
+- **Sub-Notes Storage**: Google Cloud and a dedicated bucket are used to store sub-notes.
+
+## Technology Stack
+- **Frontend**: [Specify your frontend framework or technology, e.g., Flutter]
+- **Backend**: Firebase for user authentication and Google Cloud for storage.
+- **Database**: [Specify if you are using any database, e.g., Firestore]
 
 ## Getting Started
+To get started with the Notes App, follow these steps:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone [repository-url]
